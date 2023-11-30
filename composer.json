@@ -1,0 +1,20 @@
+{
+  "name": "fornax/cms",
+  "autoload": {
+    "psr-4": {
+      "Fornax\\Cms\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ishakdeveloper",
+      "email": "ishak.development@outlook.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.15"
+  }
+}
