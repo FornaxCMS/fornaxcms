@@ -2,7 +2,7 @@
   "name": "fornaxcms/core",
   "autoload": {
     "psr-4": {
-      "Fornax\\Core\\": "src/"
+      "Fornax\\": "src/"
     }
   },
   "authors": [
@@ -16,5 +16,15 @@
   },
   "require-dev": {
     "orchestra/testbench": "^8.15"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fornax\\Providers\\FornaxServiceProvider"
+      ],
+      "aliases": {
+        "Fornax": "Fornax\\Fornax"
+      }
+    }
   }
 }
