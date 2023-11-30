@@ -16,6 +16,6 @@ class FornaxServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom("{$this->root}/routes/web.php");
-        $this->loadViewsFrom("{$this->root}/resources/views", 'fornax');
+        $this->loadViewsFrom("{$this->root}/resources/views", 'fornaxcms');
     }
 }
