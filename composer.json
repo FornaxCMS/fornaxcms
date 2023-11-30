@@ -1,8 +1,8 @@
 {
-  "name": "fornax/cms",
+  "name": "fornaxcms/core",
   "autoload": {
     "psr-4": {
-      "Fornax\\Cms\\": "src/"
+      "Fornax\\Core\\": "src/"
     }
   },
   "authors": [
